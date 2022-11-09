@@ -1,6 +1,9 @@
 // hello = () => 'hello world'
 
 // document.getElementById("demo").innerHTML = hello();
+
+
+
 const apiKey = "";
 const button = document.getElementById("button");
 const input = document.getElementById("input");
@@ -21,3 +24,5 @@ const getMoviesById = async (ID) => {
     console.log (movie);
 };
 getMoviesById('tt0094963');
+
+export {getMoviesById, getMoviesByName}

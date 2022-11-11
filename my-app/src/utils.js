@@ -2,7 +2,9 @@
 
 // document.getElementById("demo").innerHTML = hello();
 
-
+const root = ReactDOM.createRoot(
+    document.getElementById('root')
+  );
 
 const apiKey = "";
 const button = document.getElementById("button");
@@ -25,4 +27,11 @@ const getMoviesById = async (ID) => {
 };
 getMoviesById('tt0094963');
 
+
+
+
+
+
 export {getMoviesById, getMoviesByName}
+
+

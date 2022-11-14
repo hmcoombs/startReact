@@ -1,13 +1,14 @@
 import React from 'react';
 import './movieCard.css';
 
+import {getMoviesById, getMoviesByName}
 
 export default function MovieCard({ title, type, posterUrl }) {
     return (
       <div className="movie-card">
-        <img src={posterUrl} alt="Batman" />
+        <img src={posterUrl} alt={title} />
         <div className="card-body">
-          <h3>Batman v Something</h3>
+          <h3>{title}</h3>
         </div>
         <button>Movie</button>
       </div>
@@ -19,5 +20,6 @@ export default function MovieCard({ title, type, posterUrl }) {
     title: '',
   };
   console.log(MovieCard);
+
 
 

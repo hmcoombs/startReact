@@ -1,9 +1,9 @@
 .movie-card {
-    background-color: #f9f9f9;
+    background-color: #e76868;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid #f8f8f8;
+    border: 2px solid black;
     width: 200px;
     padding: 5px;
   }

@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import './movieCard.css';
 
-import {getMoviesById, getMoviesByName}
+// import {getMoviesById, getMoviesByName}
 
 export default function MovieCard({ title, type, posterUrl }) {
     return (
@@ -19,7 +19,7 @@ export default function MovieCard({ title, type, posterUrl }) {
   MovieCard.defaultProps = {
     title: '',
   };
-  console.log(MovieCard);
+//   console.log(MovieCard);
 
 
 

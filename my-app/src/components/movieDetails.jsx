@@ -1,13 +1,13 @@
-function MovieDetails ({posterUrl, title, rated, runtime, genre, plot, actors, rating}) {
-    return(
-        <div className='movie-card'>
-            <img src='#' alt='movie-title'></img>
-            <div className='card-body'>
-                <h2>Movie title</h2>
-                
+import React, { useState, useEffect } from 'react';
+import MovieCard from './movieCard';
 
-            </div>
+export default function MovieDetails() {
+  const [movies, setMovies] = useState([]);
 
-        </div>
-    );
-  }
+  return (
+    <div className="movie-details row">
+      <div className="col">{<MovieCard />}</div>
+      <div className="col"></div>
+    </div>
+  );
+}

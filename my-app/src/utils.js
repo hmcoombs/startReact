@@ -3,7 +3,7 @@
 // document.getElementById("demo").innerHTML = hello();
 // import PropTypes from 'prop-types'; 
 
-const apiKey = "aae0b53c";
+const apiKey = "";
 // const API_URL = `http://www.omdbapi.com/?apikey=${apiKey}&`
 // const button = document.getElementById("button");
 // const input = document.getElementById("input");

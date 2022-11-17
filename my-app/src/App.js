@@ -64,6 +64,8 @@ function App() {
     </div>
   );
 }
+export default App;
+
 
 // const PropsTypes = {
 //   string(props, propName, componentName) {
@@ -86,7 +88,7 @@ function App() {
 //   name: PropsTypes.number,
 // };
 
-export default App;
+
 
 
 
